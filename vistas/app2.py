@@ -29,6 +29,7 @@ redbutton.place(relx=.05,rely=.05,relwidth=.25,relheight=.9)
 grenbutton.place(relx=.35,rely=.05,relwidth=.25,relheight=.9)
 bluebutton.place(relx=.65,rely=.05,relwidth=.25,relheight=.9)
 
+# boton negro
 blackbutton = Button(frm1, text="Negro", fg="white", background="black")
 blackbutton.place(relx=.35,rely=.05,relwidth=.25,relheight=.9)
 
