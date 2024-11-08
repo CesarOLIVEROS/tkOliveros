@@ -12,7 +12,6 @@ class MyVentana(Frame):
         self.pack()
         self.CrearWidtgets()
 
-
     ## funcion suma que recibe self extrae los datos con get, hace la operacion,
     ## borra los datos existentes e inserta los resultados nuevos
     def suma(self):
@@ -21,7 +20,6 @@ class MyVentana(Frame):
         r = float(n1) + float(n2)
         self.txtNum3.delete(0, 'end')
         self.txtNum3.insert(0, r)
-
 
     ## se crean y posicionan todos los widgets
     def CrearWidtgets(self):
