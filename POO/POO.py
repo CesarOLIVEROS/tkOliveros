@@ -52,7 +52,10 @@ class MyVentana(Frame):
 ## creacion de ventana
 
 root = Tk()
+# forma de indicar un titulo a la ventana o clase
+root.wm_title("Suma de numeros")
 # se llama la clase para crear el frame
 app = MyVentana(root)
+
 # inicio de ciclo de ocurrencias del nuevo objeto creado
 app.mainloop()
